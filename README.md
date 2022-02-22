@@ -24,4 +24,5 @@ You should add at least 5 attributes to your class. Think of attributes as facts
 8. Add an attribute `magic_number` to your class. Set the `magic_number` value for each of th eobjects you created. 
 9. Add all of your objects into a list. Then write code to print the `magic_number` of each item in your list. 
 10. Write code that will print the average of the `magic_number` of all your objects. 
+11. Ok so we've played around with attributes (specifically class attributes). Let's talk about class functions! 
 
