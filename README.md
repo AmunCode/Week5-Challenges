@@ -18,5 +18,10 @@ This should feel familiar. The syntax in the first line is similar to function d
 
 You should add at least 5 attributes to your class. Think of attributes as facts about each instance of the class you created. In my case, each employee has number, name, department, supervisor, and salary.
 
-6. How would you go about printing these attributes? The same way you print variables. One slight difference is the ".", the format should look like this: 'object name.attribute'. Write code that will print the first attribute of all the objects you created.   
+6. How would you go about printing these attributes? The same way you print variables. One slight difference is the ".", the format should look like this: `object name.attribute`. Write code that will print the first attribute of all the objects you created.
+7. Change the value of the attributes for yout objects, `object name.attribute` = blah. Then print all the attributes for all of your objects. Notice how each objects attribute is indendent of other object's, they are all of the same class but different objects.
+
+8. Add an attribute `magic_number` to your class. Set the `magic_number` value for each of th eobjects you created. 
+9. Add all of your objects into a list. Then write code to print the `magic_number` of each item in your list. 
+10. Write code that will print the average of the `magic_number` of all your objects. 
 
