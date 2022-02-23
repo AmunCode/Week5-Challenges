@@ -16,10 +16,10 @@ This should feel familiar. The syntax in the first line is similar to function d
 
 ![image](https://user-images.githubusercontent.com/55643060/155216858-4c0bf8a4-07b5-4f02-b1a0-ea4306505c11.png)
 
-You should add at least 5 attributes to your class. Think of attributes as facts about each instance of the class you created. In my case, each employee has number, name, department, supervisor, and salary.
+You should add at least 5 attributes to your class. Think of attributes as facts about each instance of the class you created. In my case, each employee has a number, name, department, supervisor, and salary.
 
 6. How would you go about printing these attributes? The same way you print variables. One slight difference is the ".", the format should look like this: `object name.attribute`. Write code that will print the first attribute of all the objects you created.
-7. Change the value of the attributes for yout objects, `object name.attribute` = blah. Then print all the attributes for all of your objects. Notice how each objects attribute is indendent of other object's, they are all of the same class but different objects.
+7. Change the value of the attributes for your objects, `object name.attribute` = blah. Then print all the attributes for all of your objects. Notice how each object’s attribute is independent of other objects, they are all of the same class but different objects.
 
 8. Add an attribute `magic_number` to your class. Set the `magic_number` value for each of th eobjects you created. 
 9. Add all of your objects into a list. Then write code to print the `magic_number` of each item in your list. 
@@ -31,9 +31,15 @@ You should add at least 5 attributes to your class. Think of attributes as facts
 
 13. Create a method(function) in your class called `print_all`. This method should print all of the attributes you have in a created object. I should be able to create an object and then call the `print_all` method.
 14. Ok so you created a class without having to put any attributes upon creation of the instance. I now want you to modify your class to now require a `name` attribute when an instance is initiated. So creating an object using the sample Employee code would be `sales_person = Employee("Gina")`
-15. Write code that will allow a user to input an number. Then use that number to in the creation of a new object so that an attribute of the new object has the user input. 
+15. Write code that will allow a user to input a number. Then use that number in the creation of a new object so that an attribute of the new object has the user input. 
 16. Make a class called `SKU` with the following attributes: part number, color, price, make, model, grade.
-17. modifiy your code from #16 so that part number and make are required when a `SKU` object is created. 
+17. modify your code from #16 so that part number and make are required when a `SKU` object is created. 
 18. Add all your SKU objects into a list (you should have at least 10 objects in your list). Write code to print the whole list.
-19. Add a method to the SKU class called `print_stats`, this method shoud show print all the attributes of the object. 
-20. Remember that list of 10 colors from week 4? Use that list to give each SKU object in your list a color. Meaning the color attribut for each object needs to be updated. I advise using a loop. The color given to any of the SKU should be a random selectiong from your color list (ask Junior)
+19. Add a method to the SKU class called `print_stats`, this method should show print all the attributes of the object. 
+20. Remember that list of 10 colors from week 4? Use that list to give each SKU object in your list a color. Meaning the color attribute for each object needs to be updated. I advise using a loop. The color given to any of the SKU should be a random selection from your color list (ask Junior)
+21. I know you didn't want to see this, I'm sorry (not sorry). Remember that countdown thing you did from 100 to 0, yeah that! Let's do it using recursion!!! No seriously, don't suck your teeth that hard! Define a function that takes a number, then print that number, if n is equal to zero return, if not then call the function again. What do you have to do to the number when you call the function again? I just gave you the pseudo-code, write the actual code. 
+22. See this list [1,3,5,6,8,9,10,14,16,18, 22,24,25,26,28,30,31,32,45,46,67,70,71,72,73,74,75, 88], put it into your code. Print out the length of the list. Print out the midpoint index in the list. Make a list called `firts_half`, put all the numbers from the beginning up to the mid-point (inclusive) in that list. Make a second list call `second_half` and put all the values from the after the mid-point. Print the original list, then print the `first half` and `second half` list.
+23. Write a function called `find_number`. Pass the list to the function. Then recursively search for the number 74. 
+24. Same as 23, search for the number 81. Was that easy?
+25. Create a class called `Artist` with the following attributes: name*, genre*, best_song_ever, total_sales, record_label. You should have at least 10 artists. Write code that will only print artists of a particular genre.
+
